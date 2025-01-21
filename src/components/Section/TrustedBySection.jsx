@@ -1,5 +1,5 @@
+import SubHeading from '../common/Heading/Subheading';
 
-import SubHeading from '../common/Heading/SubHeading.jsx';  
 
 const TrustedBySection = () => {
   return (
