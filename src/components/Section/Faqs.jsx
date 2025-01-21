@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import Button from "../common/Button/Button"; // Import the Button component
 import Heading from "../common/Heading/Heading"; // Import the Heading component
-import SubHeading from "../common/Heading/SubHeading"; // Import the SubHeading component
+import SubHeading from "../common/Heading/Subheading"; // Import the SubHeading component
 
 export default function FAQs() {
   const [openIndex, setOpenIndex] = useState(null);
