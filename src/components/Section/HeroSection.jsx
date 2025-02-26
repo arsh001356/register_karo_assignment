@@ -105,7 +105,7 @@ const HeroSection = () => {
 
             {/* Hero Image */}
             <img
-              src="/public/assets/images/hero.png"
+              src="/assets/images/hero.png"
               alt="Hero Illustration"
               className="w-full h-auto mt-20 mr-20 lg:mt-20 lg:max-w-lg"
               style={{ position: "absolute", right: 0 }}
@@ -113,7 +113,7 @@ const HeroSection = () => {
 
             {/* Shoot Image */}
             <img
-              src="/public/assets/images/shoot.png"
+              src="/assets/images/shoot.png"
               alt="Shoot Illustration"
               className="w-[300px] h-[180px] ml-20 lg:mt-40 lg:max-w-lg"
               style={{ position: "absolute", right: 0, bottom: "-80px" }}
