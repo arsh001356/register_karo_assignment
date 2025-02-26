@@ -2,7 +2,7 @@ import React from "react"
 import { FileText, CreditCard, UserCheck, Mail } from "lucide-react"
 
 const logos = Array.from({ length: 10 }, (_, i) => ({
-  src: `src/assets/logo${i + 2}.png`,
+  src: `/assets/logo${i + 2}.png`,
   alt: `Logo ${i + 2}`,
 }))
 

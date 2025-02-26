@@ -52,11 +52,10 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className={`relative bg-white p-6 rounded-lg shadow-lg transition-all duration-300 ${
-                index === activeSlide ? "block" : "hidden lg:block"
-              }`}
+              className={`relative bg-white p-6 rounded-lg shadow-lg transition-all duration-300 ${index === activeSlide ? "block" : "hidden lg:block"
+                }`}
             >
-              
+
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg
@@ -72,7 +71,7 @@ export default function Testimonials() {
               <p className="text-gray-600 mb-6">{testimonial.text}</p>
               <div className="flex items-center gap-4">
                 <img
-                  src="src/assets/images/profile.png"
+                  src="/assets/images/profile.png"
                   alt={testimonial.author}
                   className="w-12 h-12 rounded-full"
                 />

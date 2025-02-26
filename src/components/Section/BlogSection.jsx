@@ -1,11 +1,11 @@
-import Heading from "../common/Heading/Heading"; 
-import SubHeading from "../common/Heading/Subheading"; 
-import Button from "../common/Button/Button"; 
+import Heading from "../common/Heading/Heading";
+import SubHeading from "../common/Heading/Subheading";
+import Button from "../common/Button/Button";
 
 export default function BlogSection() {
   const blogs = [
     {
-      image: "/src/assets/blog/blog1.png",
+      image: "/public/assets/blog/blog1.png",
       author: "Prabhash Mishra",
       date: "1 Jan 2023",
       title: "Small business & Startup",
@@ -14,7 +14,7 @@ export default function BlogSection() {
       tags: ["Tax & Audit", "Management"],
     },
     {
-      image: "/src/assets/blog/blog2.png",
+      image: "/public/assets/blog/blog2.png",
       author: "Mahesh Kumar",
       date: "1 Jan 2023",
       title: "Scale-Up Company Offer",
@@ -23,7 +23,7 @@ export default function BlogSection() {
       tags: ["Tax", "Research", "Compliance"],
     },
     {
-      image: "/src/assets/blog/blog3.png",
+      image: "/public/assets/blog/blog3.png",
       author: "Rakhi Verma",
       date: "1 Jan 2023",
       title: "Growing Business Package",
@@ -32,7 +32,7 @@ export default function BlogSection() {
       tags: ["Audit", "Money Back"],
     },
     {
-      image: "/src/assets/blog/blog4.png",
+      image: "/public/assets/blog/blog4.png",
       author: "Karan Kumar",
       date: "1 Jan 2023",
       title: "Transforming Digital Models",
@@ -41,7 +41,7 @@ export default function BlogSection() {
       tags: ["Business Strategy", "Innovation"],
     },
     {
-      image: "/src/assets/blog/blog5.png",
+      image: "/public/assets/blog/blog5.png",
       author: "Richa Singh",
       date: "1 Jan 2023",
       title: "The Future of AI in Business",
@@ -50,7 +50,7 @@ export default function BlogSection() {
       tags: ["AI", "Technology", "Future"],
     },
     {
-      image: "/src/assets/blog/blog6.png",
+      image: "/public/assets/blog/blog6.png",
       author: "Miss Nora",
       date: "1 Jan 2023",
       title: "Mastering Financial Strategy",

@@ -1,8 +1,8 @@
-import Heading from "../common/Heading/Heading"; 
-import { FaPlayCircle } from "react-icons/fa"; 
+import Heading from "../common/Heading/Heading";
+import { FaPlayCircle } from "react-icons/fa";
 
 const AboutSection = () => {
-  
+
   const videoUrl = "https://youtu.be/UdG1AA2gWQs";
 
   return (
@@ -35,9 +35,9 @@ const AboutSection = () => {
           {/* Learn More Button */}
           <div className="flex items-center gap-4 mt-8">
             <a
-              href={videoUrl} 
-              target="_blank" 
-              rel="noopener noreferrer" 
+              href={videoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-[#1C4670] text-white text-lg px-6 py-3 rounded-lg hover:bg-[#143356]"
               style={{ width: '200px', height: '48px' }}
             >
@@ -50,7 +50,7 @@ const AboutSection = () => {
         {/* Right Section: Image */}
         <div className="w-1/2 flex justify-center">
           <img
-            src="src/assets/images/About.png"
+            src="/assets/images/About.png"
             alt="About"
             className="object-contain w-[584px] h-[422px]"
           />

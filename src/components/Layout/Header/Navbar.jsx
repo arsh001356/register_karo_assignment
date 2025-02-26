@@ -16,13 +16,13 @@ const Navbar = () => {
                 <div className="flex items-center justify-between">
                     {/* Logo */}
                     <div className="flex-shrink-0">
-                        <img src="src/assets/images/logo.png" alt="Logo" className="h-6" />
+                        <img src="/assets/images/logo.png" alt="Logo" className="h-6" />
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <button 
-                        onClick={() => setIsMenuOpen(!isMenuOpen)} 
-                        className="md:hidden" 
+                    <button
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                        className="md:hidden"
                         aria-expanded={isMenuOpen ? 'true' : 'false'}
                     >
                         <FaBars className="text-gray-700 text-xl" />
@@ -57,47 +57,47 @@ const Navbar = () => {
                 {/* Mobile Menu */}
                 {isMenuOpen && (
                     <nav className="mt-4 md:hidden">
-                        <Link 
-                            to="heroSection" 
-                            smooth={true} 
-                            duration={500} 
-                            className="block py-2 text-gray-700 hover:text-gray-900" 
+                        <Link
+                            to="heroSection"
+                            smooth={true}
+                            duration={500}
+                            className="block py-2 text-gray-700 hover:text-gray-900"
                             onClick={handleLinkClick}
                         >
                             Home
                         </Link>
-                        <Link 
-                            to="features" 
-                            smooth={true} 
-                            duration={500} 
-                            className="block py-2 text-gray-700 hover:text-gray-900" 
+                        <Link
+                            to="features"
+                            smooth={true}
+                            duration={500}
+                            className="block py-2 text-gray-700 hover:text-gray-900"
                             onClick={handleLinkClick}
                         >
                             Our Services
                         </Link>
-                        <Link 
-                            to="blogSection" 
-                            smooth={true} 
-                            duration={500} 
-                            className="block py-2 text-gray-700 hover:text-gray-900" 
+                        <Link
+                            to="blogSection"
+                            smooth={true}
+                            duration={500}
+                            className="block py-2 text-gray-700 hover:text-gray-900"
                             onClick={handleLinkClick}
                         >
                             Blog
                         </Link>
-                        <Link 
-                            to="aboutSection" 
-                            smooth={true} 
-                            duration={500} 
-                            className="block py-2 text-gray-700 hover:text-gray-900" 
+                        <Link
+                            to="aboutSection"
+                            smooth={true}
+                            duration={500}
+                            className="block py-2 text-gray-700 hover:text-gray-900"
                             onClick={handleLinkClick}
                         >
                             About Us
                         </Link>
-                        <Link 
-                            to="contactUs" 
-                            smooth={true} 
-                            duration={500} 
-                            className="block py-2 text-gray-700 hover:text-gray-900" 
+                        <Link
+                            to="contactUs"
+                            smooth={true}
+                            duration={500}
+                            className="block py-2 text-gray-700 hover:text-gray-900"
                             onClick={handleLinkClick}
                         >
                             Contact Us

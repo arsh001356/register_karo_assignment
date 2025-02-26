@@ -1,6 +1,6 @@
 import React from "react";
 import { Star } from "lucide-react";
-import Button from "../common/Button/Button"; 
+import Button from "../common/Button/Button";
 
 const HeroSection = () => {
   const stats = [
@@ -74,10 +74,10 @@ const HeroSection = () => {
 
               {/* CTAs */}
               <div className="flex flex-wrap gap-4">
-                <Button  type="primary">
+                <Button type="primary">
                   Talk To Expert
                 </Button>
-                <Button  type="secondary">
+                <Button type="secondary">
                   See how it works
                 </Button>
               </div>
@@ -105,7 +105,7 @@ const HeroSection = () => {
 
             {/* Hero Image */}
             <img
-              src="/src/assets/images/hero.png"
+              src="/public/assets/images/hero.png"
               alt="Hero Illustration"
               className="w-full h-auto mt-20 mr-20 lg:mt-20 lg:max-w-lg"
               style={{ position: "absolute", right: 0 }}
@@ -113,7 +113,7 @@ const HeroSection = () => {
 
             {/* Shoot Image */}
             <img
-              src="/src/assets/images/shoot.png"
+              src="/public/assets/images/shoot.png"
               alt="Shoot Illustration"
               className="w-[300px] h-[180px] ml-20 lg:mt-40 lg:max-w-lg"
               style={{ position: "absolute", right: 0, bottom: "-80px" }}
